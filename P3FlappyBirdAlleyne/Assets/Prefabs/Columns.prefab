@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 2912600621578534419}
   - component: {fileID: 8960177997406837280}
   m_Layer: 0
-  m_Name: pipe (1)
+  m_Name: ColumnSprite (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -27,7 +27,7 @@ Transform:
   m_GameObject: {fileID: 1702703958838917817}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: 1, w: 0}
-  m_LocalPosition: {x: 0.65, y: 5.45, z: 0}
+  m_LocalPosition: {x: 0.65, y: 5.14, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -144,7 +144,7 @@ GameObject:
   - component: {fileID: 5122903195704117681}
   - component: {fileID: 3539267650785638512}
   m_Layer: 0
-  m_Name: Pipes
+  m_Name: Columns
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -199,7 +199,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 1.69, y: 0.76}
+  m_Offset: {x: 1.69, y: 0.5630698}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -210,7 +210,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 2.29}
+  m_Size: {x: 1, y: 1.8961396}
   m_EdgeRadius: 0
 --- !u!50 &3156606509342441863
 Rigidbody2D:
@@ -275,7 +275,7 @@ GameObject:
   - component: {fileID: 9200628958024876239}
   - component: {fileID: 1000142083594546209}
   m_Layer: 0
-  m_Name: pipe
+  m_Name: ColumnSprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
