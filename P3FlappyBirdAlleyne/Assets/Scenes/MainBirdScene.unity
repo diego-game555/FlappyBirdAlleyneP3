@@ -1008,6 +1008,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   upForce: 200
+  flapsound: {fileID: 8300000, guid: b3dff85619103a840935d5e5a23f54a8, type: 3}
+  deathsound: {fileID: 8300000, guid: 6d061217944bb06419f021c1144c6185, type: 3}
 --- !u!95 &788867013
 Animator:
   serializedVersion: 5

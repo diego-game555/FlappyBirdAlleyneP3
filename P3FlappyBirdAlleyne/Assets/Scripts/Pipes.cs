@@ -8,10 +8,11 @@ public class Pipes : MonoBehaviour
     // Start is called before the first frame update
     private void OnTriggerEnter2D (Collider2D other)
     {
+        Bird controller = other.GetComponent<Bird>();
         if (other.GetComponent<Bird>() != null)
         {
             GameControl.instance.BirdScored();
-            
+            controller.PlaySound(collectedClip);
         }
     }
 }
